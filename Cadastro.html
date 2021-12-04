@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro</title>
+        <style>
+             nav li {
+                display: inline-block;
+                border: 5px solid rgb(0, 96, 134);
+                border-radius: 5px;
+                background-color: rgba(35, 182, 187, 0.712);
+                box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.75);
+            }
+            form {
+                border: 2px solid black;
+                border-radius: 0px;
+            }
+        </style>
+    </head>
+    <header>
+        <img src="avião3.jpg" width="1580px">
+        <h1>AG De Viagens<br>Cadastre-se</h1>
+    </header>
+    <nav align="center">
+        <ul>
+            <font size="5">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Visitados.html">Mais visitados</a></li>
+            <li><a href="Cadastro.html">Cadastrar</a></li>
+        </font>
+        </ul>
+    </nav>
+    <body>
+        <form>
+            <table>
+                <tr>
+                <td><label for="Nome"> Nome:</label></td>
+                <td><input name="Nome" type="text" placeholder="Digite seu nome" required></td>
+                </tr>
+                <tr>
+                <td><label for="Nome"> Sobrenome:</label></td>
+                <td><input name="Nome" type="text" placeholder="Digite seu sobrenome" required></td>
+                </tr>
+                <tr>
+                <td><label for="Email"> E-mail:</label></td>
+                <td><input type="Email" type="email" placeholder="Digite seu E-mail" required></td>
+                </tr>
+                <tr>
+                <td><label for="Data"> Data de nascimento:</label></td>
+                <td><input type="Data" type="date" placeholder="Digite a data de seu nascimento" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Estado"> Estado:</label></td>
+                    <td><select name="Estado">
+                        <option value="1"> AC</option>
+                        <option value="2"> AL </option>
+                        <option value="3"> AP </option>
+                        <option value="4"> AM </option>
+                        <option value="5"> BA </option>
+                        <option value="6"> CE </option>
+                        <option value="7"> ES </option>
+                        <option value="8"> GO </option>
+                        <option value="9"> MA </option>
+                        <option value="10"> MT </option>
+                        <option value="11"> MS </option>
+                        <option value="12"> MG </option>
+                        <option value="13"> PA </option>
+                        <option value="14"> PB </option>
+                        <option value="15"> PR </option>
+                        <option value="16"> PE </option>
+                        <option value="17"> PI </option>
+                        <option value="18"> RJ </option>
+                        <option value="19"> RN </option>
+                        <option value="20"> RS </option>
+                        <option value="21"> RO </option>
+                        <option value="22"> RR </option>
+                        <option value="23"> SC </option>
+                        <option value="24"> SP </option>
+                        <option value="25"> SC </option>
+                        <option value="26"> TO </option>
+                        <option value="26"> DF </option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="submit">Enviar</butto></button></td>
+                    </tr>
+            </table>
+        </form>
+    </body>
+</html>
